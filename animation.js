@@ -69,9 +69,9 @@ const mouse = {
   y: innerHeight / 2,
 };
 
-var amt = 100;
-var r = 15;
-var width = 2;
+var amt ;
+var r;
+var width ;
 
 var colors = [
   "#272F32",
