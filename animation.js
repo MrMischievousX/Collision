@@ -69,7 +69,7 @@ const mouse = {
   y: innerHeight / 2,
 };
 
-var amt ;
+var amt =80;
 var r;
 var width ;
 
@@ -172,7 +172,7 @@ function init() {
     r = 20;
     width = 4;
   } else {
-    amt = 100;
+    amt = 80;
     r = 10;
     width = 1.5;
   }
