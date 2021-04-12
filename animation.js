@@ -173,7 +173,7 @@ function init() {
     width = 4;
   } else {
     amt = 100;
-    r = 15;
+    r = 10;
     width = 1.5;
   }
 
