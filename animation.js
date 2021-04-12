@@ -167,14 +167,14 @@ class Ball {
 let balls;
 function init() {
   balls = [];
-  if (innerWidth > 400) {
+  if (innerWidth > 600) {
     amt = 200;
     r = 20;
     width = 4;
   } else {
     amt = 80;
     r = 10;
-    width = 1.5;
+    width = 2;
   }
 
   for (let i = 0; i < amt; i++) {
