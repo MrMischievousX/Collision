@@ -197,7 +197,7 @@ function init() {
 // Animation Loop
 function animate() {
   requestAnimationFrame(animate);
-  c.fillStyle = "rgba(255,255,255,0.2)";
+  c.fillStyle = "rgba(0,0,0,0.1)";
   c.fillRect(0, 0, canvas.width, canvas.height);
   balls.forEach((Ball) => {
     Ball.update(balls);
